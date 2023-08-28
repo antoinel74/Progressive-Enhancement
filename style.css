@@ -28,9 +28,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body {
 	line-height: 1;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: auto;
     width: 90%;
     background-image: linear-gradient(#E9DBE9, #E4BEEE);
@@ -78,10 +80,16 @@ li {
 figure {
     padding: 30px 0 30px 0;
     float: left;
-    position: fixed;
-    max-width: 30%;
-    max-height: 30%;
+}
 
+.block {
+    display: flex;
+    flex-direction: row;
+}
+
+ img {
+    max-width: 70%;
+    max-height:70%;
 }
 
 p {
@@ -96,7 +104,7 @@ header > h1 {
 }
 
 .bad {
-    text-transform; capitalize;
+    text-transform: capitalize;
     color: red;
 }
 q {
@@ -143,6 +151,7 @@ th, td {
     font-size: 160%;
     opacity: 50%;
   }
+
 .bold {
     font-weight: bold;
 }
