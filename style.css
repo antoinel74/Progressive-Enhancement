@@ -1,0 +1,187 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    width: 90%;
+    background-image: linear-gradient(#E9DBE9, #E4BEEE);
+}
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    padding-bottom: 15px;
+    padding-top: 50px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 15px;
+}
+h3 {
+    font-weight: bold;
+    font-size: 1em;
+}
+caption {
+    caption-side: bottom;
+}
+
+li {
+    list-style-type: circle;
+    margin-left: 50px;
+    line-height: 1.8;
+}
+
+figure {
+    padding: 30px 0 30px 0;
+    float: left;
+    position: fixed;
+    max-width: 30%;
+    max-height: 30%;
+
+}
+
+p {
+    line-height: 1.8;
+}
+header > h1 {
+    background-color: yellow;
+}
+.good {
+    text-transform: capitalize;
+    color: green;
+}
+
+.bad {
+    text-transform; capitalize;
+    color: red;
+}
+q {
+    line-height: 1.6;
+    font-style: italic;
+    margin: auto;
+    background-color: #d8d6d6c4;
+    padding-left: 30px;
+    font-size: 160%;
+}
+
+.villager {
+    border-left: 3px solid green;
+}
+
+.farmer {
+    border-left: 3px solid blue;
+}
+
+table {
+    padding: 150px;
+    border: solid;
+
+}
+
+th, td {
+    padding: 15px;
+    border: solid;
+  }
+
+  th {
+    font-weight: bold;
+  }
+
+  blockquote {
+    background: #e1e0e0;
+    font-style: italic;
+    border-left: 3px solid brown;
+    margin: auto;
+    padding: 80px 0px 80px 30px;
+    quotes: "\201C""\201D""\2018""\2019";
+    line-height: 1.6;
+    width: 50%;
+    font-size: 160%;
+    opacity: 50%;
+  }
+.bold {
+    font-weight: bold;
+}
+
+.grey {
+    background-color: grey;
+}
+.white {
+    background-color: white;
+}
+  blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+
+  blockquote p  {
+    display: inline;
+  }
+  blockquote cite  {
+    display: inline;
+  }
+
+cite {
+    text-align: right;
+    font-style: italic; 
+    padding-top: 50px;
+    font-size: 0.8em;
+    float: right;
+}
+
+h5 {
+
+}
+
+.textfooter {
+    font-size: 0.8em;
+    padding-top: 50px;
+}
